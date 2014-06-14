@@ -45,14 +45,16 @@ Now that you have the starter task repository in your github account, let's clon
 
 	*Note: You will need to be connected to the internet in order to clone the repository to your Pi*
 
-2. Either from the **command line** or from an **LXTerminal** window, type the following command to clone the github repository on your github account:
+2. Either from the **command line** or from an **LXTerminal** window, type the following command to clone the github repository on your github account, and press **enter**:
 
 	```
 	git clone https://github.com/user/a-starter-task.git
 	``` 
-	*Note that you need to replace 'user' with your account name.*
+	*Note that you need to replace 'user' with your account name. e.g. MissPhilbin*
 
-3. Once your have cloned the repository you will see a new directory added to the Raspberry Pi file structure. This is the repo. You can change directory into it using `cd a-starter-task` and then type `ls` to see the files contained within it. These will include the code file which you want to chage called **code.py**.	
+3. GitHub may ask you to log into your account at this point with your username and password.
+
+4. Once your have cloned the repository you will see a new directory added to the Raspberry Pi file structure. This is the repo. You can change directory into it using `cd a-starter-task` and then type `ls` to see the files contained within it. These will include the code file which you want to chage called **code.py**.	
 
 ##Step 5: Change the code
 
@@ -68,7 +70,14 @@ With the starter code successfully cloned to your Raspberry Pi you will be able 
 
 ##Step 6: Upload the changed code to Github
 
+1. Open an **LXTerminal** window by double clicking on the desktop icon.
+2. Next configure your email address and name on your Raspberry Pi so that when you commit your changes you can see who made the commit. Type:
 
+	```
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+	```
+	
 
 git add code.py
 git commit -m "my commit message"
@@ -83,7 +92,7 @@ Another option, if your Raspberry Pi is not connected to the internet is to save
 
 ##Step 7: Share and Comment
 
-Follow [Ben](http://github.com/bennuttall) or [Carrie Anne](http://github.com/missphilbin) and anyone else from Picademy. Then you will be able to see their forked repositories and their changed versions of code.py
+Follow [Ben](http://github.com/bennuttall) or [Carrie Anne](http://github.com/missphilbin) and anyone else from [Picademy](https://github.com/picademy). Then you will be able to see their forked repositories and their changed versions of code.py
 
 You can comment on their work and give feedback by navigating to their forked respository and then clicking on the **issues** button on the right hand side of the screen. The icon looks like an exclamation mark in a circle. Then you can fill out a comment box and submit it. This could be a useful way for you to makr students work. 
 
