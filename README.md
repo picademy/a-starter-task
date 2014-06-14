@@ -2,21 +2,21 @@
 
 ##Introduction
 
-Interested in innovative ways to assess students work on Raspberry Pis in the classroom? Then github for education could provide a good answer. This tutorial will demonstrate how you could use github to give students some starter code to adapt, and how you can assess their changes.
+Interested in innovative ways to assess students work on Raspberry Pis in the classroom? Then github for education could provide a good answer. This tutorial will demonstrate how you could use github to give students some starter code to adapt, and how you can assess their changes. If you are new to GitHub then this could be quite a learning curve, so dedicate an hour to sitting down and following the steps below. 
 
 ##Step 1: Do you have a GitHub account?
 
-Make sure that you have signed up for [GitHub here](https://github.com/). This [github cheat sheet may come in handy](https://education.github.com/git-cheat-sheet-education.pdf) too.
+Make sure that you have signed up for [GitHub here](https://github.com/). You can do this on a computer connected to the internet. This [github cheat sheet may come in handy](https://education.github.com/git-cheat-sheet-education.pdf) as a reference guide too.
 
 ##Step 2: Make a copy of this *repository*
 
-A repository is a type of folder on github. Making a copy of a respoistory is called **forking**. Click on the 'Fork' button at the top of the screen on the right hand side, and a copy of everything in this respoitory called **a-starter-task** will appear in your account.
+A repository is a type of folder or directory on github. Making a copy of a respoistory is called **forking**. Click on the 'Fork' button at the top of the screen on the right hand side, and a copy of everything in this respoitory called **a-starter-task** will appear in your account.
 
 ![](forking.png)
 
 ##Step 3: Locate the code!
 
-Now navigate back to your account and find the starter code called **code.py**. The code will look like this but will be in a text file:
+To locate the code file navigate back to your account. You can do this by clicking on your username at the top of the page. Now find the starter code file called **code.py**.  The code will look like this but will be in a text file:
 
 ```python
 import random
@@ -87,16 +87,16 @@ Another option, if your Raspberry Pi is not connected to the internet is to save
 
 ##Step 7: Share and Comment
 
-Follow [Ben](http://github.com/bennuttall) or [Carrie Anne](http://github.com/missphilbin) and anyone else from [Picademy](https://github.com/picademy). Then you will be able to see their forked repositories and their changed versions of code.py
-
-You can comment on their work and give feedback by navigating to their forked respository and then clicking on the **issues** button on the right hand side of the screen. The icon looks like an exclamation mark in a circle. Then you can fill out a comment box and submit it. This could be a useful way for you to makr students work. 
+You can comment on the files in a students repository and give feedback by navigating to their forked version of the repo and then clicking on the **issues** button on the right hand side of the screen. The icon looks like an exclamation mark in a circle. Then you can fill out a comment box and submit it. This could be a useful way for you to mark students work. 
 
 ![](issues.png)
 
-You can also track the changes that students have made to the code in their repositories, by clicking on the **History** button on their file within their GitHub repo. 
+You can also track the changes that students have made to the code in their repositories, by clicking on the **History** button on their file within their GitHub repo. A great way to demonstrate progress without too much effort!
 
 ![](history.png)
 
 ##Step 8: Learn more about GitHub in Education
 
 You can learn more about how to use [GitHub in Education here](https://education.github.com/guide). Including steps on administrating accounts for students. 
+
+Follow [Ben](http://github.com/bennuttall) or [Carrie Anne](http://github.com/missphilbin) and anyone else from [Picademy](https://github.com/picademy) to learn more or get help with using GitHub on Raspberry Pi in the classroom.
