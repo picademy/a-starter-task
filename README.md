@@ -71,24 +71,20 @@ With the starter code successfully cloned to your Raspberry Pi you will be able 
 ##Step 6: Upload the changed code to Github
 
 1. Open an **LXTerminal** window by double clicking on the desktop icon.
+2. Change directory to where your updated code file is located by typing `cd a-starter-task`.
 2. Next configure your email address and name on your Raspberry Pi so that when you commit your changes you can see who made the commit. Type:
 
 	```
 	git config --global user.email "you@example.com"
 	git config --global user.name "Your Name"
 	```
-	
+3. Type `git add code.py` and press **enter**.
+4. Then type `git commit -m "my commit message"`. *Note that the commit message acts as a note to remind you or collaborators about what you have done to the file.*
+5. Finally type `git push` to finalise the commit to github. You will be asked for your github username and password in order to complete this step.
 
-git add code.py
-git commit -m "my commit message"
-git push 
-
-When you use the push command it may ask you to log into your GitHub account.
-
+![](command-commit.png)
 
 Another option, if your Raspberry Pi is not connected to the internet is to save your ammended code.py file onto a usb memory stick connected to the Pi. Then log into your github account with a computer or laptop and open the file by clicking on the **code.py** file in your forked repository. (Not our original!) Then click on **edit**. You can then paste your new code over the top from the file on the usb memory stick. To save your code you need to **commit** it to the repository. You will notice that there is a comment box in which you can give a description to the code that you have changed. Add an explanantion here and then click on **Commit Changes**.
-
-![](commit-pi.png)
 
 ##Step 7: Share and Comment
 
