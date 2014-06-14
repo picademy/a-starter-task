@@ -18,13 +18,42 @@ A repository is a type of folder on github. Making a copy of a respoistory is ca
 
 Now navigate back to your account and find the starter code called **code.py**. The code will look like this but will be in a text file:
 
+```python
+import random
+import time
+
+print("Welcome to my fortune teller")
+
+question = input("Would you like me to tell your fortune?\n")
+colour = input("What is your favourite colour?\n")
+
+print("I will now select your fortune based on your selection of ", colour)
+time.sleep(2)
+
+fortunes = ["You win all the things",
+			"Good things will happen if you learn to code"]
+			
+print(random.choice(fortunes))
+
+```			
 
 ##Step 4: Copy the code to your Raspberry Pi
 
+Now that you have the starter task repository in your github account, let's clone it to your Raspberry Pi to make the program better!
+
+First setup your Raspberry Pi and log in. You can follow [the Raspberry Pi quick start guide here](http://www.raspberrypi.org/help/quick-start-guide/)
+
+*Note: You will need to be connected to the internet in order to clone the repository to your Pi*
 
 
 ##Step 5: Change the code
 
+1. Open **IDLE3** by double clicking on the desktop icon. 
+2. Click on **File** and **Open**
+3. Naviagte to where you saved **code.py** to and select it.
+4. Click **Open**
+5. Now add some more fortune statements strings to the list at the bottom. Currently there are two, add at least 5 more.
+6. When completed test your code works by saving it and clicking on **Run** followed by **Run Module**
 
 ##Step 6: Upload the changed code to Github
 
