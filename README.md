@@ -91,9 +91,11 @@ Follow [Ben](http://github.com/bennuttall) or [Carrie Anne](http://github.com/mi
 
 You can comment on their work and give feedback by navigating to their forked respository and then clicking on the **issues** button on the right hand side of the screen. The icon looks like an exclamation mark in a circle. Then you can fill out a comment box and submit it. This could be a useful way for you to makr students work. 
 
+![](issues.png)
+
 You can also track the changes that students have made to the code in their repositories, by clicking on the **History** button on their file within their GitHub repo. 
 
-![](issues.png)
+![](history.png)
 
 ##Step 8: Learn more about GitHub in Education
 
