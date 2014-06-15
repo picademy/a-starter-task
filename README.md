@@ -61,6 +61,9 @@ With the starter code successfully cloned to your Raspberry Pi you will be able 
 
 1. If you are comfortable with using the command line, then you can use text editors like **nano** to adapt the code. Otherwise boot to the desktop by typing `startx`.
 2. Open **IDLE3** by double clicking on the desktop icon. 
+
+	![](idle3.png)
+
 3. Click on **File** and **Open**
 4. Naviagte to where you saved **code.py** to and select it.
 5. Click **Open**
