@@ -1,20 +1,20 @@
 # A starter task for using GitHub in Education with Raspberry Pi
 
-##Introduction
+## Introduction
 
 Interested in innovative ways to assess students' work on Raspberry Pis in the classroom? Then GitHub in Education could provide a good answer. This tutorial will demonstrate how you could use GitHub to give students some starter code to adapt, and how you can assess their changes to the code. If you are new to GitHub then this could be a steep learning curve, so dedicate an hour to sitting down and following the steps below. 
 
-##Step 1: Do you have a GitHub account?
+## Step 1: Do you have a GitHub account?
 
 Make sure that you have signed up for [GitHub here](https://github.com/). You can do this on a computer connected to the internet. This [GitHub cheat sheet may come in handy](https://education.github.com/git-cheat-sheet-education.pdf) as a reference guide too.
 
-##Step 2: Make a copy of this *repository*
+## Step 2: Make a copy of this *repository*
 
 A repository is a type of folder or directory on GitHub. Making a copy of a repository is called **forking**. Click on the 'Fork' button at the top of the screen on the right hand side, and a copy of everything in this repository called **a-starter-task** will appear in your account.
 
 ![](forking.png)
 
-##Step 3: Locate the code!
+## Step 3: Locate the code!
 
 To locate the code file, navigate back to your account. You can do this by clicking on your username at the top of the page. Now find the starter code file called `code.py`. The code will look like this but will be in a text file:
 
@@ -36,7 +36,7 @@ print(random.choice(fortunes))
 
 ```			
 
-##Step 4: Copy the code to your Raspberry Pi
+## Step 4: Copy the code to your Raspberry Pi
 
 Now that you have the starter task repository in your GitHub account, let's clone it to your Raspberry Pi to make the program better!
 
@@ -55,7 +55,7 @@ Now that you have the starter task repository in your GitHub account, let's clon
 
 4. Once you have cloned the repository, you will see a new directory added to the Raspberry Pi file structure; this is the repository, sometimes shortened to 'repo'. You can change directory into it using `cd a-starter-task` and then type `ls` to see the files contained within it. These will include the code file which you want to change, called `code.py`.	
 
-##Step 5: Change the code
+## Step 5: Change the code
 
 With the starter code successfully cloned to your Raspberry Pi, you will be able to change it and add your own style/twist. 
 
@@ -70,7 +70,7 @@ With the starter code successfully cloned to your Raspberry Pi, you will be able
 6. Now add some more fortune statement strings to the list at the bottom. Currently there are two; add at least 5 more.
 7. When completed, test your code works by saving it and clicking on **Run** followed by **Run Module**.
 
-##Step 6: Upload the changed code to GitHub
+## Step 6: Upload the changed code to GitHub
 
 1. Open an **LXTerminal** window by double-clicking on the desktop icon.
 2. Change directory to where your updated code file is located by typing `cd a-starter-task`.
@@ -88,7 +88,7 @@ With the starter code successfully cloned to your Raspberry Pi, you will be able
 
 If your Raspberry Pi is not connected to the internet, another method is to save your amended `code.py` file onto a USB memory stick connected to the Pi. Then log into your GitHub account with a computer or laptop, and open the file by clicking on the `code.py` file in your forked repository. (This is not our original file!) Click on **edit**; you can then paste your new code from the file on the USB memory stick. To save your code you need to **commit** it to the repository. You will notice that there is a comment box where you can describe the code that you have changed. Add an explanation here and then click on **Commit Changes**.
 
-##Step 7: Share and comment
+## Step 7: Share and comment
 
 You can comment on the files in a student's repository, and give feedback, by navigating to their forked version of the repo and then clicking on the **issues** button on the right hand side of the screen. (The icon looks like an exclamation mark in a circle.) You can then fill out a comment box and submit it. This could be a useful way for you to mark a student's work. 
 
@@ -98,7 +98,7 @@ You can also track the changes that students have made to the code in their repo
 
 ![](history.png)
 
-##Step 8: Learn more about GitHub in Education
+## Step 8: Learn more about GitHub in Education
 
 You can learn more about how to use [GitHub in Education here](https://education.github.com/guide), including steps on administering accounts for students. 
 
